@@ -1,0 +1,180 @@
+.nav-menu{
+    border-bottom: 0.0625rem solid $subtitle-color;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    padding: 1.5625rem 0;
+  }
+
+  .logo{
+    color: $header-color;
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: 'GTRegular';
+    &:hover{
+      color: $white-color;
+    }
+  }
+
+  .nav-elements{
+    display: none;
+  }
+
+  //Burger-Menu
+.bm-burger-button {
+    width: 1.875rem;
+    height: 1.25rem;
+    left: 0;
+    top: 0;
+    right: 0 !important;
+    cursor: pointer;
+    position: relative;
+  }
+  .bm-burger-bars {
+    background-color: #C9C9C9;
+  }
+  .line-style {
+    height: 0.1875rem;
+    left: 0;
+    right: 0;
+    &:nth-child(1){
+      width: 1.25rem;
+      margin-left: 0.6875rem;
+    }
+    &:nth-child(2){
+      background-color: $main-green-color;
+    }
+    &:nth-child(3){
+      width: 1.25rem;;
+      right: 0;
+    }
+  }
+  .cross-style {
+    cursor: pointer;
+    right: 0;
+    top: 1.5625rem;
+  }
+  .bm-cross {
+    position: absolute;
+    width: 0.1875rem;
+    height: 1.875rem !important;
+    transform: rotate(-45deg);
+    background: #C9C9C9;
+  }
+  .bm-cross-button {
+    height: 1.875rem;
+    width: 1.875rem;
+  }
+  .bm-menu {
+    height: 100%;
+    width: 0; /* 0 width - change this with JavaScript */
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    background-color: rgb(63, 63, 65);
+    overflow-x: hidden;
+    padding-top: 3.75rem;
+    transition: 0.5s;
+  }
+  
+  .bm-overlay {
+    background-color: #181818;
+  }
+  
+  .bm-item-list{
+    color: #b8b7ad;
+    margin-left: 10%;
+    font-size: 1rem;
+    ul{
+      display: flex;
+      flex-direction: column;
+      list-style-type: none;
+      padding: 0;
+      li {
+        padding: 0.7em;
+      }
+    } 
+  }
+
+  .nav-link-hover{
+    color: #888888; 
+    text-decoration: none;
+    font-size: 1rem;
+    position: relative;
+    font-family: 'GTRegular';
+    letter-spacing: 0.7px;
+  &::after{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 100%;   
+  }
+	&:hover{
+    font-weight: bold;
+    color: $white-color !important;
+		&::after{
+      content: "";
+      height: 0.25rem;
+      right: 0;
+      background: $main-green-color;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      z-index: 2; 
+      -webkit-transition-property: right;
+      transition-property: right;
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-timing-function: ease-out;
+      transition-timing-function: ease-out;     
+		}
+	}
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media only screen and (min-width:768px) {
+
+    .logo{
+      font-size: 1.4rem;
+    }  
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media only screen and (min-width:1200px) {
+    .nav-menu{
+        padding: 2rem 0;
+    }
+
+    .nav-container{
+      max-width: 90% !important;
+    }
+
+    .bm-burger-button{
+        display: none;
+      }
+      .nav-elements{
+        display: block;
+        ul{
+          margin: 0;
+          list-style-type: none;
+          display: flex;
+          li{
+            margin-right: 5rem;
+            &:last-child{
+              margin-right: 0;
+            }
+          }
+        }
+      }
+}
+

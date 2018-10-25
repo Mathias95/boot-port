@@ -1,0 +1,151 @@
+@font-face{
+	font-family: "GTLight";
+	src: url("assets/fonts/GTLight.otf") format("opentype");
+}
+
+@font-face{
+	font-family: "GTRegular";
+	src: url("assets/fonts/GTRegular.otf") format("opentype");
+}
+
+@font-face{
+	font-family: "GTMedium";
+	src: url("assets/fonts/GTMedium.otf") format("opentype");
+}
+
+@font-face{
+	font-family: "GTBold";
+	src: url("assets/fonts/GTBold.otf") format("opentype");
+}
+@font-face{
+	font-family: "GTBlack";
+	src: url("assets/fonts/GTBlack.otf") format("opentype");
+}
+
+@font-face{
+	font-family: "Rus";
+	src: url("assets/fonts/RusticoRegular.otf") format("opentype");
+}
+
+// Thypography styling
+
+.main-text{
+    font-size: 1rem;
+    color: $main-text-color;
+    line-height: 2rem;
+    margin: 0;
+}
+
+.banner-heading{
+    font-size: 3rem;
+    line-height: 0.9em;
+    letter-spacing: 0.125rem;
+    color: $header-color;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'GTBlack';
+    span{
+        color: $main-green-color;
+        display: block;
+    }
+}
+
+.subbanner-heading{
+    font-size: 1;
+    text-transform: uppercase;
+    color: $subtitle-color;
+    font-weight: bold;
+    letter-spacing: 0.0625rem;
+    margin: 0;
+    font-family: 'GTBold';
+}
+
+.profile-headline{
+    font-size: 3.5rem;
+    font-family: 'Rus';
+    color: $main-green-color;
+    font-weight: 100;
+    line-height: 3.125rem;
+    margin: 0;
+    span{
+        display: block;
+        color: $header-color;
+        position: relative;
+        &::after{
+            content: "";
+            height: 0.5rem;
+            width: 0.5rem;
+            border-radius: 50%;
+            border: 2px solid $main-green-color;
+            position: absolute;
+            bottom: 0.625rem;
+            margin-left: 0.3125rem;
+        }
+    }
+}
+
+.uppercase-highlight{
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    font-style: normal;
+    &::before{
+        content: "";
+        height: 0.25rem;
+        width: 100%;
+        background-color: $main-green-color;
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+.main-headline{
+    font-size: 1.8rem;
+    color: $header-color;
+    font-family: 'GTBold';
+    margin: 0;
+}
+
+.headline-dot{
+    font-size: 1.8rem;
+    color: $header-color;
+    font-family: 'GTBold';
+    margin: 0;
+    position: relative;
+    &::after{
+        content: "";
+        height: 0.5rem;
+        width: 0.5rem;
+        border-radius: 50%;
+        border: 0.125rem solid $main-green-color;
+        position: absolute;
+        bottom: 0.4375rem;
+        margin-left: 0.3125rem;
+    }
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media only screen and (min-width:768px){
+    .banner-heading{
+        font-size: 5.5rem;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media only screen and (min-width:1200px) {
+
+    .banner-heading{
+        font-size: 7.5rem;
+        letter-spacing: 0.3125rem;
+    }
+
+    .subbanner-heading{
+        font-size: 1.3rem;
+    }
+}

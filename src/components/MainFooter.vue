@@ -1,0 +1,30 @@
+<template>
+    <section class="contact">
+      <div class="empty-circle-small"></div>
+      <div class="container">
+        <div class="contact-text-wrapper">
+          <h2 class="headline-dot"><span>Hello</span> I solve problems &amp; test new ideas</h2>
+          <p class="main-text">Lorem ipsum dolor sit amet, consecteturtempor incididunt ut labore et</p>
+          <div class="social-contact-links">
+            <ul>
+              <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+              <li><a href="#"><i class="fab fa-github"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="mail-wrapper">
+          <h3>mathiasrjacobsen@gmail.com</h3>
+          <a href="#" class="button button-main-btn">Smid en mail<i class="fab fa-telegram-plane"></i></a>
+        </div>
+      </div>
+      <div class="empty-circle-small"></div>
+    </section>
+</template>
+
+<script>
+    export default {
+        name: "MainFooter"
+    };
+</script>
