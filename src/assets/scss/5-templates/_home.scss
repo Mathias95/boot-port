@@ -21,10 +21,11 @@
         position: absolute;
         bottom: -5.3125rem;
     }
-    p{
-        margin-top: 6.875rem;
-        font-style: italic;
-    }
+}
+
+.profile-text{
+    margin-top: 6.875rem;
+    font-style: italic;
 }
 
 .profile-img-wrapper{
@@ -53,9 +54,9 @@
 }
 
 .projects-text-wrapper{
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
     h2{
-        margin-bottom: 25px;
+        margin-bottom: 1.5625rem;
         &::before{
             content: "03";
             position: absolute;
@@ -177,5 +178,117 @@
         letter-spacing: 0.03125rem;
     }
 }
+
+@media only screen and (min-width:768px) {
+
+    .profile{
+        padding-top: 15.625rem;
+    }
+
+    .profile-text-wrapper{
+        &::before{
+            font-size: 11rem;
+            top: -2.1875rem;
+        }
+        h2{
+            position: absolute;
+            bottom: -9.6875rem;
+        }
+    }
+
+    .profile-text{
+        margin-top: 10.625rem;
+        background-color: $main-bg;
+        box-shadow: rgba(0, 0, 0, 0.15) 6px 6px 6px 0px;
+        padding: 3.125rem;
+        line-height: 2.8125rem;
+    }
+
+    .bg-frame{
+        top: 3.4375rem;
+        bottom: -3.4375rem;
+        left: 3.4375rem;
+        max-width: calc(100% - 3.4375rem);
+    }
+
+    .profile-img{
+        max-width: calc(100% - 3.4375rem);
+    }
+
+    .projects{
+        padding-top: 15.625rem;
+    }
+
+    .projects-text-wrapper{
+        h2{
+            &::before{
+                font-size: 11rem;
+            }
+        }
+        p{
+            max-width: 75%;
+        }
+    }
+
+    .skills{
+        padding-top: 15.625rem;
+    }
+
+    .skills-wrapper{
+        &::before{
+            font-size: 11rem;
+            top: -2.5rem;
+        }
+    }
+
+    .skills-text-wrapper{
+        p{
+            width: 75%;
+        }
+    }
+
+    .headline-bg-wrapper{
+        padding: 1.5625rem 1.25rem;
+        &:nth-child(2){
+            padding: 1.5625rem 40px 1.5625rem 1.25rem;
+            margin: 0.9375rem 0 1.5625rem 0;
+        }
+        h2{
+            span{
+                &::before{
+                    height: 0.5rem;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width:1200px) {
+
+    .profile-text{
+        margin: 0;
+        width: 53%;
+    }
+
+    .skills-wrapper{
+        position: relative;
+        margin-bottom: 200px;
+    }
+
+    .skills-text-wrapper{
+        margin: 0;
+        position: absolute;
+        right: 0px;
+        bottom: 85px;
+        display: inline;
+        max-width: 53%;
+    }
+}
+
+
+
+
+
 
 

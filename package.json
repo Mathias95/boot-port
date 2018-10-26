@@ -13,6 +13,7 @@
     "popper.js": "^1.14.4",
     "vue": "^2.5.17",
     "vue-burger-menu": "^1.0.8",
+    "vue-owl-carousel": "^2.0.3",
     "vue-router": "^3.0.1"
   },
   "devDependencies": {

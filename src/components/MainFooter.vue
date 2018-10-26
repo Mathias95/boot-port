@@ -16,7 +16,7 @@
         </div>
         <div class="mail-wrapper">
           <h3>mathiasrjacobsen@gmail.com</h3>
-          <a href="#" class="button button-main-btn">Smid en mail<i class="fab fa-telegram-plane"></i></a>
+          <a href="mailto:mathiasrjacobsen@gmail.com?Subject=Hello%20again" class="button button-main-btn">Smid en mail<i class="fab fa-telegram-plane"></i></a>
         </div>
       </div>
       <div class="empty-circle-small"></div>

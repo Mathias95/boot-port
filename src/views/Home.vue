@@ -10,7 +10,9 @@
             <h2 class="profile-headline">Mathias <span>Jacobsen</span></h2>
           </div>
           <img class="green-x" src="" alt="">
-          <p class="main-text">Lorem ipsum dolor sit amet, consectetur <span class="uppercase-highlight">adipiscing</span> eiusmod tempor incididunt ut labore et <span class="uppercase-highlight">dolore</span> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <span class="uppercase-highlight">aliquip</span> ex ea.</p>
+          <div class="profile-text">
+            <p class="main-text">Lorem ipsum dolor sit amet, consectetur <span class="uppercase-highlight">adipiscing</span> eiusmod tempor incididunt ut labore et <span class="uppercase-highlight">dolore</span> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <span class="uppercase-highlight">aliquip</span> ex ea.</p>
+          </div>
         </div>
       </div>
     </section>
@@ -40,7 +42,7 @@
           </div>
           <div class="skills-text-wrapper">
             <div class="headline-bg-wrapper">
-              <h2 class="main-headline">Solve big <span>problems</span> &amp;</h2>
+              <h2 class="main-headline">Solve big <span>problems</span> and</h2>
             </div>
             <div class="headline-bg-wrapper">
               <h2 class="headline-dot">in just five days</h2>
