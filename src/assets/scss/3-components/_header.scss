@@ -4,7 +4,7 @@
     left: 0px;
     top: 0px;
     right: 0px;
-    padding: 1.5625rem 0;
+    padding: 1.5625rem 3%;
   }
 
   .logo{
@@ -13,7 +13,7 @@
     font-size: 1.2rem;
     letter-spacing: 1px;
     text-transform: uppercase;
-    font-family: 'GTRegular';
+    font-family: 'GTLight';
     &:hover{
       color: $white-color;
     }
@@ -104,7 +104,7 @@
     text-decoration: none;
     font-size: 1rem;
     position: relative;
-    font-family: 'GTRegular';
+    font-family: 'GTLight';
     letter-spacing: 0.7px;
   &::after{
     content: "";
@@ -114,7 +114,7 @@
     right: 100%;   
   }
 	&:hover{
-    font-weight: 400;
+    font-weight: bold;
     color: $white-color !important;
 		&::after{
       content: "";
@@ -152,11 +152,7 @@
 
 @media only screen and (min-width:1200px) {
     .nav-menu{
-        padding: 2rem 0;
-    }
-
-    .nav-container{
-      max-width: 90% !important;
+        padding: 2rem 4%;
     }
 
     .bm-burger-button{

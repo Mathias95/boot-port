@@ -177,8 +177,31 @@
     .subbanner-heading{
         font-size: 1.3rem;
     }
+
+    .profile-headline{
+        font-size: 8rem;
+        line-height: 7.3125rem;
+    }
+
+    .profile-headline{
+        span{
+            &::after{
+                bottom: 1.5rem;
+            }
+        }
+    }
 }
 
 @media only screen and (min-width: 1200px){
+   
+    .main-headline{
+        font-size: 3.4rem;
+    }
 
+    .headline-dot{
+        font-size: 3.4rem;
+        &::after{
+            bottom: 0.9rem;
+        }
+    }
 }

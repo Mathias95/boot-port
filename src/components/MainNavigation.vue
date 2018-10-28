@@ -1,6 +1,6 @@
 <template>
     <nav class="nav-menu">
-        <div class="d-flex justify-content-between align-items-center container nav-container">
+        <div class="d-flex justify-content-between align-items-center container-fluid p-0">
             <router-link to="/" class="logo">Logo text</router-link>
             <Slide right>
             <ul class="mobile-menu">

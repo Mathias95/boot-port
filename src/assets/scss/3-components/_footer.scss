@@ -107,3 +107,40 @@
         padding-top: 25rem;
     }
 }
+
+@media only screen and (min-width: 1200px){
+
+    .contact-text-wrapper{
+        h2{
+            &::before{
+                font-size: 13rem;
+            }
+            span{
+                &::after{
+                    bottom: 0.3rem;
+                }
+            }
+        }
+        p{
+            max-width: 53%;
+        }
+    }
+
+    .mail-wrapper{
+        padding: 5rem;
+        h3{
+            font-size: 2rem;
+            margin: 0;
+            padding-bottom: 0;
+            border-bottom: 0;
+        }
+    }
+
+    .mail-inner{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 0.0625rem solid #505050;
+        padding-bottom: 2rem;
+    }
+}

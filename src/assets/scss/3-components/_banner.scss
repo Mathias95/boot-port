@@ -13,7 +13,7 @@
 
 .banner-sub{
     position: absolute;
-    left: 0;
+    left: 3%;
     bottom: 0;
     right: 0;
     ul{
@@ -61,7 +61,9 @@
     }
 
     .banner-sub{
-        max-width: 90% !important;
+        left: 4%;
+        bottom: 0;
+        right: 0;
         ul{
             margin:  0 0 2.5rem 0;
         }

@@ -148,9 +148,9 @@
           </div>
         </div>
       </div>
-    </div>
       </div>
-    <div class="empty-circle-medium"></div>
+      </div>
+      <div class="empty-circle-medium"></div>
     </section>
   </div>
 </template>

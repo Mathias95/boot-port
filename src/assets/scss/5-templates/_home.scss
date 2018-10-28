@@ -258,6 +258,7 @@
 
     .skillset-item{
         height: 167px;
+        padding: 2.1875rem 3.125rem;
         p{
             font-size: 0.7rem;
             margin-top: 15px;
@@ -269,6 +270,12 @@
 
     #profile{
         padding-top: 15rem;
+    }
+
+    .profile-text-wrapper{
+        h2{
+            bottom: -11.6875rem;
+        }
     }
 
     .profile-text{
@@ -319,18 +326,55 @@
             margin: 0.9375rem 0 1.5625rem 0;
         }
     }
+
+    
+    .skillset-item{
+        padding: 3.125rem 3.4375rem;
+    }
 }
 
 
 @media only screen and (min-width:1200px) {
+
+    .profile-text-wrapper{
+        &::before{
+            font-size: 13rem;
+            top: -2.5rem;
+        }
+    }
 
     .profile-text{
         margin: 0;
         width: 53%;
     }
 
+    .projects-text-wrapper{
+        h2{
+            &::before{
+                font-size: 13rem;
+            }
+        }
+    }
+
+    .skills-wrapper{
+        &::before{
+            font-size: 13rem;
+            top: -2.5rem;
+        }
+    }
+
     .skills-text-wrapper{
-        max-width: 53%;
+        max-width: 60%;
+    }
+
+    .headline-bg-wrapper{
+        h2{
+            span{
+                &::before{
+                    bottom: 0.3rem;
+                }
+            }
+        }
     }
 }
 
