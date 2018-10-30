@@ -11,9 +11,9 @@
             </div>
             <div class="container-fuild banner-sub">
                 <ul>
-                    <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    <li><a href="mailto:mathiasrjacobsen@gmail.com?Subject=Hello%20again"><i class="fas fa-envelope"></i><span>Mail</span></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-square"></i><span>Facebook</span></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin"></i><span>Linkedin</span></a></li>
                 </ul>
             </div>
         </section>
@@ -31,6 +31,6 @@
 
 <script>
     export default {
-        name: "MainBanner"
+        name: 'MainBanner'
     };
 </script>

@@ -1,0 +1,21 @@
+.main-carousel {
+    margin-bottom: 40px;
+  }
+  
+  .carousel-cell {
+    width: 66%;
+    height: 200px;
+    margin-right: 10px;
+    background: $main-green-color;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+  }
+  
+  /* cell number */
+  .carousel-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+  }

@@ -23,6 +23,10 @@
     display: none;
   }
 
+  .nav-link-hover{
+    padding: 3px 8px;
+  }
+
   //Burger-Menu
 .bm-burger-button {
     width: 1.875rem;
@@ -109,28 +113,23 @@
   &::after{
     content: "";
     position: absolute;
-    z-index: 2;
+    height: 4px;
+    bottom: 38%;
     left: 0;
-    right: 100%;   
+    visibility: hidden;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    background: $main-green-color;
+    width: 0%;
+    z-index: 2; 
   }
 	&:hover{
-    font-weight: bold;
     color: $white-color !important;
 		&::after{
       content: "";
-      height: 0.25rem;
-      right: 0;
-      background: $main-green-color;
+      width: 100%;
       position: absolute;
-      left: 0;
-      bottom: 0;
-      z-index: 2; 
-      -webkit-transition-property: right;
-      transition-property: right;
-      -webkit-transition-duration: 0.3s;
-      transition-duration: 0.3s;
-      -webkit-transition-timing-function: ease-out;
-      transition-timing-function: ease-out;     
+      visibility: visible;
 		}
 	}
 }
@@ -151,26 +150,27 @@
 }
 
 @media only screen and (min-width:1200px) {
-    .nav-menu{
-        padding: 2rem 4%;
+  .nav-menu{
+      padding: 2rem 4%;
+  }
+
+  .bm-burger-button{
+      display: none;
     }
 
-    .bm-burger-button{
-        display: none;
-      }
-      .nav-elements{
-        display: block;
-        ul{
-          margin: 0;
-          list-style-type: none;
-          display: flex;
-          li{
-            margin-right: 5rem;
-            &:last-child{
-              margin-right: 0;
-            }
-          }
+  .nav-elements{
+      display: block;
+    ul{
+      margin: 0;
+      list-style-type: none;
+      display: flex;
+      li{
+        margin-right: 4.5rem;
+        &:last-child{
+          margin-right: 0;
         }
       }
+    }
+  }
 }
 

@@ -28,8 +28,20 @@
             a{
                 font-size: 1.2rem;
                 color: $grey-color;
+                span{
+                    font-size: 1rem;
+                    margin-left: 10px;
+                    opacity: 0;
+                    transition: all 400ms ease 0s;
+                }
                 &:hover{
                     color: $main-green-color;
+                    span{
+                        transition: all 400ms ease 0s;
+                        color: $main-green-color;
+                        opacity: 1;
+                        visibility: visible;
+                    }
                 }
             }
         }
@@ -50,6 +62,20 @@
         background-color: $dark-grey-bg;
         margin-left: 3.4375rem;
         margin-top: 5rem;
+    }
+
+    .banner-sub{
+        ul{
+            li{
+                a{
+                    font-size: 1.2rem;
+                    color: $grey-color;
+                    &:hover{
+                        color: $main-green-color;
+                    }
+                }
+            }
+        }
     }
 }
 

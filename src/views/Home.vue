@@ -1,6 +1,8 @@
 <template>
   <div class="home">
+    
     <main-banner/>
+
     <section id="profile">
       <div class="container">
         <div class="profile-text-wrapper">
@@ -16,17 +18,7 @@
       </div>
     </section>
 
-    <section id="projects">
-      <div class="container">
-        <div class="row">
-        <div class="col-12 col-md-9 col-lg-6 col-xl-5 projects-text-wrapper">
-          <h2 class="headline-dot">Seneste projekter</h2>
-          <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        </div>
-          <a class="button button-main-btn" href="#">Flere projekter<img src="../assets/images/arrow-right.png" alt=""></a>
-      </div>
-    </section>
+    <main-slider/>
 
     <section id="skills">
       <div class="container">
@@ -158,10 +150,12 @@
 <script>
 // @ is an alias to /src
 import MainBanner from "@/components/MainBanner.vue";
+import MainSlider from "@/components/MainSlider";
 export default {
   name: "home",
   components: {
-    MainBanner
+    MainBanner,
+    MainSlider
   }
 };
 </script>
