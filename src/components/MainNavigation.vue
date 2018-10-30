@@ -1,7 +1,7 @@
 <template>
     <nav class="nav-menu">
         <div class="d-flex justify-content-between align-items-center container-fluid p-0">
-            <router-link to="/" class="logo">Logo text</router-link>
+            <router-link to="/" class="logo">Logo</router-link>
             <Slide right>
             <ul class="mobile-menu">
                 <li><a class="nav-link-hover" href="#">Forside</a></li>

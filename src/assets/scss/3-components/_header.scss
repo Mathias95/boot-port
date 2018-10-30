@@ -1,9 +1,9 @@
 .nav-menu{
     border-bottom: 0.0625rem solid rgba(255, 255, 255, 0.02);
     position: absolute;
-    left: 0px;
-    top: 0px;
-    right: 0px;
+    left: 0;
+    top: 0;
+    right: 0;
     padding: 1.5625rem 3%;
   }
 
@@ -11,7 +11,7 @@
     color: $header-color;
     text-decoration: none;
     font-size: 1.2rem;
-    letter-spacing: 1px;
+    letter-spacing: 0.0625rem;
     text-transform: uppercase;
     font-family: 'GTLight';
     &:hover{
@@ -24,7 +24,7 @@
   }
 
   .nav-link-hover{
-    padding: 3px 8px;
+    padding: 0.1875rem 0.5rem;
   }
 
   //Burger-Menu
@@ -109,11 +109,11 @@
     font-size: 1rem;
     position: relative;
     font-family: 'GTLight';
-    letter-spacing: 0.7px;
+    letter-spacing: 0.04375rem;
   &::after{
     content: "";
     position: absolute;
-    height: 4px;
+    height: 0.25rem;
     bottom: 38%;
     left: 0;
     visibility: hidden;
@@ -152,6 +152,7 @@
 @media only screen and (min-width:1200px) {
   .nav-menu{
       padding: 2rem 4%;
+      border-bottom: 0;
   }
 
   .bm-burger-button{

@@ -9,16 +9,27 @@
         </div>
       </div>
       <div class="main-carousel"
-        data-flickity='{ "freeScroll": true }'>
-            <div class="carousel-cell">
-
+        data-flickity='{ "freeScroll": true, "pageDots": false, "prevNextButtons": false}'>
+            <div class="project-cell p1">
+                <div class="project-overlay">
+                    <h3 class="project-headline">Mobile<br> App design</h3>
+                </div>
             </div>
-            <div class="carousel-cell">
-                
+            <div class="project-cell p2">
+                <div class="project-overlay">
+                    <h3 class="project-headline">Mobile<br> App design</h3>
+                </div>
             </div>
-            <div class="carousel-cell"></div>
-            <div class="carousel-cell"></div>
-            <div class="carousel-cell"></div>
+            <div class="project-cell p3">
+                <div class="project-overlay">
+                    <h3 class="project-headline">Mobile<br> App design</h3>
+                </div>
+            </div>
+            <div class="project-cell p4">
+                <div class="project-overlay">
+                    <h3 class="project-headline">Mobile<br> App design</h3>
+                </div>
+            </div>
         </div>
         <div class="container">
             <a class="button button-main-btn" href="#">Flere projekter<img src="../assets/images/arrow-right.png" alt=""></a>

@@ -7,7 +7,7 @@
     .section-slider{
         height: 100vh;
         display: table;
-        width: 45px;
+        width: 2.8125rem;
         position: fixed;
         top: 0;
         right: 4%;
@@ -24,12 +24,13 @@
                     font-family: 'GTRegular';
                     transition: all 500ms;
                     display: block;
-                    padding: 5px 0 5px 0;
+                    padding: 0.3125rem 0 0.3125rem 0;
                     text-align: right;
                     font-size: 1rem;
+                    color: rgba(255, 255, 255, 0.20) !important;
                     &:hover{
                         font-family: 'GTBold';
-                        color: $main-green-color;
+                        color: $main-green-color !important;
                     }
                 }
             }
