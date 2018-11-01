@@ -41,19 +41,11 @@
     background-color: #C9C9C9;
   }
   .line-style {
-    height: 0.1875rem;
+    height: 2px;
     left: 0;
     right: 0;
-    &:nth-child(1){
-      width: 1.25rem;
-      margin-left: 0.6875rem;
-    }
     &:nth-child(2){
       background-color: $main-green-color;
-    }
-    &:nth-child(3){
-      width: 1.25rem;;
-      right: 0;
     }
   }
   .cross-style {
@@ -62,10 +54,8 @@
     top: 1.5625rem;
   }
   .bm-cross {
-    position: absolute;
-    width: 0.1875rem;
+    width: 2px !important;
     height: 1.875rem !important;
-    transform: rotate(-45deg);
     background: #C9C9C9;
   }
   .bm-cross-button {
@@ -141,7 +131,7 @@
 @media only screen and (min-width:768px) {
 
     .logo{
-      font-size: 1.4rem;
+      font-size: 1.6rem;
     }  
 }
 

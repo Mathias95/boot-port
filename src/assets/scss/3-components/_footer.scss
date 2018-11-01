@@ -12,7 +12,6 @@
             font-family: 'GTBold';
             color: rgba(255, 255, 255, 0.02);
             line-height: 0;
-            z-index: -1;
         }
         margin-bottom: 1.5625rem;
         span{
@@ -21,7 +20,7 @@
                 content: "";
                 height: 0.3125rem;
                 width: 100%;
-                background-color: #39EA8A;
+                background-color: $main-green-color;
                 position: absolute;
                 left: 0;
                 bottom: 0.1875rem;
@@ -122,8 +121,15 @@
             }
         }
         p{
-            max-width: 53%;
+            max-width: 60%;
         }
+    }
+
+    .mail{
+        position: absolute !important;
+        right: 0;
+        width: 100% !important;
+        margin-top: 50px;
     }
 
     .mail-wrapper{

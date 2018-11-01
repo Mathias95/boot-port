@@ -11,7 +11,6 @@
         font-family: 'GTBold';
         color: rgba(255, 255, 255, 0.02);
         line-height: 0;
-        z-index: -1;
         top: -1.25rem;
     }
     h2{
@@ -39,7 +38,7 @@
     left: 1.5625rem;
     background-color: #282828;
     max-width: calc(100% - 1.5625rem);
-    z-index: -1;
+    z-index: -2;
 }
 
 .profile-img{
@@ -61,7 +60,6 @@
             font-family: 'GTBold';
             color: rgba(255, 255, 255, 0.02);
             line-height: 0;
-            z-index: -1;
         }
     }
 }
@@ -87,7 +85,6 @@
             color: rgba(255, 255, 255, 0.02);
             line-height: 0;
             top: -0.5rem;
-            z-index: -1;
         }
     }
     p{
@@ -336,6 +333,28 @@
 
 
 @media only screen and (min-width:1200px) {
+
+    .lines{
+        position: fixed;
+        width: 100%;
+        z-index: -10000;
+    }
+
+    .col-line{
+        width: 25%;
+        &:last-child{
+            border-right-style: solid;
+            border-right-width: 1px;
+            border-right-color: rgba(0, 0, 0, 0.16);
+        }
+    }
+
+    .line{
+        border-left-style: solid;
+        border-left-width: 1px;
+        border-left-color: rgba(0, 0, 0, 0.16);
+        height: 100vh;
+    }
 
     .profile-text-wrapper{
         &::before{

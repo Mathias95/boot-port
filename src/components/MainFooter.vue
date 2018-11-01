@@ -3,7 +3,7 @@
       <div class="empty-circle-small"></div>
       <div class="container">
         <div class="row">
-        <div class="col-12 col-md-10 col-lg-6 col-xl-7">
+        <div class="col-12 col-md-10 col-lg-6 col-xl-7"  data-sal="slide-right" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
           <div class="contact-text-wrapper">
             <h2 class="headline-dot"><span>Hello</span> I solve problems &amp; test new ideas</h2>
             <p class="main-text">Lorem ipsum dolor sit amet, consecteturtempor incididunt ut labore et</p>
@@ -17,7 +17,7 @@
           </div>
         </div>
         </div>
-        <div class="col-12 col-lg-6 col-xl-10">
+        <div class="col-12 col-lg-6 col-xl-6 mail">
           <div class="mail-wrapper">
             <div class="mail-inner">
               <h3>mathiasrjacobsen@gmail.com</h3>

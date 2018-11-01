@@ -71,16 +71,6 @@
         display: block;
         color: $header-color;
         position: relative;
-        &::after{
-            content: "";
-            height: 0.5rem;
-            width: 0.5rem;
-            border-radius: 50%;
-            border: 0.125rem solid $main-green-color;
-            position: absolute;
-            bottom: 0.625rem;
-            margin-left: 0.3125rem;
-        }
     }
 }
 
@@ -153,18 +143,6 @@
     .profile-headline{
         font-size: 6rem;
         line-height: 5.3125rem;
-        span{
-            &::after{
-                content: "";
-                height: 0.75rem;
-                width: 0.75rem;
-                border-radius: 50%;
-                border: 0.1875rem solid $main-green-color;
-                position: absolute;
-                bottom: 0.9375rem;
-                margin-left: 0.625rem;
-            }
-        }
     }
 
     .main-headline{
