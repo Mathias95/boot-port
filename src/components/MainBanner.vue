@@ -4,7 +4,7 @@
             <div class="empty-circle-big"></div>
             <div class="container animated bounceInUp">
                 <div class="wrapper-box">
-                    <h1 class="banner-heading">Creative<span>Frontender</span></h1>
+                    <h1 class="banner-heading">Kreativ<span>Frontender</span></h1>
                     <div class="empty-divider"></div>
                 </div>
                 <p class="subbanner-heading">Subtitle - Subheadertitle</p>
@@ -13,7 +13,7 @@
                 <ul>
                     <li><a href="mailto:mathiasrjacobsen@gmail.com?Subject=Hello%20again"><i class="fas fa-envelope"></i><span>Mail</span></a></li>
                     <li><a href="https://www.facebook.com/mathias.jacobsen3" target="_blank"><i class="fab fa-facebook-square"></i><span>Facebook</span></a></li>
-                    <li><a href="https://dk.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i><span>Linkedin</span></a></li>
+                    <li><a href="https://github.com/Mathias95" target="_blank"><i class="fab fa-github"></i><span>GitHub</span></a></li>
                 </ul>
             </div>
         </section>

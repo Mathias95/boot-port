@@ -12,22 +12,22 @@
         data-flickity='{ "freeScroll": true, "pageDots": false, "prevNextButtons": false}'>
             <div class="project-cell p1">
                 <div class="project-overlay">
-                    <h3 class="project-headline">Mobile<br> App design</h3>
+                    <h3 class="project-headline">Fullrate<br>Web design</h3>
                 </div>
             </div>
             <div class="project-cell p2">
                 <div class="project-overlay">
-                    <h3 class="project-headline">Mobile<br> App design</h3>
+                    <h3 class="project-headline">Vue.Js<br>Webshop</h3>
                 </div>
             </div>
             <div class="project-cell p3">
                 <div class="project-overlay">
-                    <h3 class="project-headline">Mobile<br> App design</h3>
+                    <h3 class="project-headline">Telia<br>Web design</h3>
                 </div>
             </div>
             <div class="project-cell p4">
                 <div class="project-overlay">
-                    <h3 class="project-headline">Mobile<br> App design</h3>
+                    <h3 class="project-headline">LVS<br>Website</h3>
                 </div>
             </div>
         </div>
