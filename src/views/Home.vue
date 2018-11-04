@@ -44,7 +44,7 @@
           <div class="col-12 col-md-10 col-lg-6 col-xl-6 competence" data-sal="slide-right" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
             <h2 class="headline-dot">Mine kompetencer</h2>
             <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu.</p>
-            <a class="cv" href="#">Download mit CV <i class="fas fa-download"></i></a>
+            <a href="" target="_blank" class="cv">Download mit CV <i class="fas fa-download"></i></a>
           </div>
           <div class="col-12 col-md-9 col-lg-6 col-xl-6 mx-auto" data-sal="slide-left" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
             <img src="../assets/images/kompetencer.png" alt="">
