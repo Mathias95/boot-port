@@ -30,7 +30,7 @@
             <h2 class="profile-headline">Mathias <span>Jacobsen</span></h2>
           </div>
           <div class="profile-text"  data-sal="slide-left" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
-            <p class="main-text">Lorem ipsum dolor sit amet, consectetur <span class="uppercase-highlight">adipiscing</span> eiusmod tempor incididunt ut labore et <span class="uppercase-highlight">dolore</span> magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut <span class="uppercase-highlight">aliquip</span> ex ea.</p>
+            <p class="main-text">Hej mit navn er Mathias jeg er 23år, og står på springbrættet til at starte min karrier, som <span class="uppercase-highlight">Frontend</span> Udvikler. Jeg er uddannet Multimediedesigner, og har stor passion for både design og <span class="uppercase-highlight">programmering</span>. Jeg læser PBA Web Development på UCL (Odense), og er netop igang med mit 2.Semester, hvor jeg søger en <span class="uppercase-highlight">prakrtikplads</span> til det afsluttende 3.Semester.</p>
           </div>
         </div>
       </div>
@@ -42,9 +42,9 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-md-10 col-lg-6 col-xl-6 competence" data-sal="slide-right" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
-            <h2 class="headline-dot">Mine kompetencer</h2>
+            <h2 class="headline-dot">Tekniske kompetencer</h2>
             <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu.</p>
-            <a href="" target="_blank" class="cv">Download mit CV <i class="fas fa-download"></i></a>
+            <a href="CV.pdf" target="_blank" class="cv">Download mit CV <i class="fas fa-download"></i></a>
           </div>
           <div class="col-12 col-md-9 col-lg-6 col-xl-6 mx-auto" data-sal="slide-left" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
             <img src="../assets/images/kompetencer.png" alt="">
@@ -66,7 +66,6 @@
           </div>
         </div>
       </div>
-      <div class="empty-circle-medium"></div>
     </section>
   </div>
 </template>

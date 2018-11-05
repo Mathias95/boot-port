@@ -9,9 +9,8 @@
             <p class="main-text">Lorem ipsum dolor sit amet, consecteturtempor incididunt ut labore et</p>
             <div class="social-contact-links">
             <ul>
-              <li><a href="mailto:mathiasrjacobsen@gmail.com?Subject=Hello%20again"><i class="fas fa-envelope"></i></a></li>
+              <li><a href="mailto:mathiasrjacobsen@gmail.com"><i class="fas fa-envelope"></i></a></li>
               <li><a href="https://www.facebook.com/mathias.jacobsen3" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-              <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
               <li><a href="https://github.com/Mathias95" target="_blank"><i class="fab fa-github"></i></a></li>
             </ul>
           </div>
@@ -21,13 +20,12 @@
           <div class="mail-wrapper">
             <div class="mail-inner">
               <h3>mathiasrjacobsen@gmail.com</h3>
-              <a href="mailto:mathiasrjacobsen@gmail.com?Subject=Hello%20again" class="button button-main-btn">Smid en mail<i class="fab fa-telegram-plane"></i></a>
+              <a href="mailto:mathiasrjacobsen@gmail.com" class="button button-main-btn">Smid en mail<i class="fab fa-telegram-plane"></i></a>
             </div>
         </div>
         </div>
         </div>
       </div>
-      <div class="empty-circle-small"></div>
     </section>
 </template>
 
