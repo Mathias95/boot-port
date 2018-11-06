@@ -1,24 +1,5 @@
 <template>
   <div class="home">
-    <div class="lines">
-      <div class="container">
-        <div class="row">
-          <div class="col-line">
-            <div class="line"></div>
-          </div>
-          <div class="col-line">
-            <div class="line"></div>
-          </div>
-          <div class="col-line">
-            <div class="line"></div>
-          </div>
-          <div class="col-line">
-            <div class="line"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <main-banner/>
 
     <section id="profile">
@@ -44,7 +25,7 @@
           <div class="col-12 col-md-10 col-lg-6 col-xl-6 competence" data-sal="slide-right" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
             <h2 class="headline-dot">Kompetencer</h2>
             <p class="main-text"> Min tekniske værktøjskasse råder over forskellige programmer, samt værktøjer som bliver anvendt i forbindelse med udviklingsprocessen af hjemmesider. Jeg har blandt andet arbejdet med CMS systemet Wordpress, samt Umbraco. Det seneste værktøj, som jeg har kastet mig over at lærer er Frameworket Vue.js, samt app sproget Swift til ios development, da jeg finder app udvikling spændende. </p>
-            <a href="CV.pdf" target="_blank" class="cv">Download mit CV <i class="fas fa-download"></i></a>
+            <a href="CV.pdf" target="_blank" class="link-underline">Download mit CV <i class="fas fa-download"></i></a>
           </div>
           <div class="col-12 col-md-9 col-lg-6 col-xl-6 mx-auto" data-sal="slide-left" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
             <img src="../assets/images/kompetencer.png" alt="">
@@ -67,6 +48,8 @@
         </div>
       </div>
     </section>
+
+    <main-footer/>
   </div>
 </template>
 
@@ -74,13 +57,15 @@
 // @ is an alias to /src
 import MainBanner from "@/components/MainBanner.vue";
 import MainSlider from "@/components/MainSlider";
+import MainFooter from '@/components/MainFooter.vue';
 import sal from "sal.js";
 
 export default {
   name: "home",
   components: {
     MainBanner,
-    MainSlider
+    MainSlider,
+    MainFooter
   },
  mounted() {
     sal();

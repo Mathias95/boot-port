@@ -11,12 +11,13 @@
             <ul>
               <li><a href="mailto:mathiasrjacobsen@gmail.com"><i class="fas fa-envelope"></i></a></li>
               <li><a href="https://www.facebook.com/mathias.jacobsen3" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href="https://www.behance.net/mathiasrjacab2" target="_blank"><i class="fab fa-behance"></i></a></li>
               <li><a href="https://github.com/Mathias95" target="_blank"><i class="fab fa-github"></i></a></li>
             </ul>
           </div>
         </div>
         </div>
-        <div class="col-12 col-lg-6 col-xl-8 mail">
+        <div class="col-12 col-lg-6 col-xl-6 mail">
           <div class="mail-wrapper">
             <div class="mail-inner">
               <h3>mathiasrjacobsen@gmail.com</h3>

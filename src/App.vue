@@ -1,8 +1,26 @@
 <template>
   <div id="app">
+        <div class="lines">
+      <div class="container">
+        <div class="row">
+          <div class="col-line">
+            <div class="line"></div>
+          </div>
+          <div class="col-line">
+            <div class="line"></div>
+          </div>
+          <div class="col-line">
+            <div class="line"></div>
+          </div>
+          <div class="col-line">
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
     <main-navigation/>
     <router-view/>
-    <main-footer/>
   </div>
 </template>
 
@@ -13,11 +31,9 @@
 
 <script>
 import MainNavigation from '@/components/MainNavigation.vue';
-import MainFooter from '@/components/MainFooter.vue';
 export default {
     components: {
     MainNavigation,
-    MainFooter
   }
 }
 </script>

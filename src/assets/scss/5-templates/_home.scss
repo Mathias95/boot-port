@@ -89,20 +89,6 @@
     p{
         margin-bottom: 25px; 
     }
-    a{
-        position: relative;
-        font-size: 18px;
-        letter-spacing: 0.5px;
-        &::after{
-            content: "";
-            position: absolute;
-            background-color: $main-green-color;
-            height: 0.25rem;
-            width: 100%;
-            bottom: 0;
-            left: 0;
-        }
-    }
 }
 
 .skills-wrapper{
