@@ -42,8 +42,8 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-12 col-md-10 col-lg-6 col-xl-6 competence" data-sal="slide-right" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
-            <h2 class="headline-dot">Tekniske kompetencer</h2>
-            <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididu.</p>
+            <h2 class="headline-dot">Kompetencer</h2>
+            <p class="main-text"> Min tekniske værktøjskasse råder over forskellige programmer, samt værktøjer som bliver anvendt i forbindelse med udviklingsprocessen af hjemmesider. Jeg har blandt andet arbejdet med CMS systemet Wordpress, samt Umbraco. Det seneste værktøj, som jeg har kastet mig over at lærer er Frameworket Vue.js, samt app sproget Swift til ios development, da jeg finder app udvikling spændende. </p>
             <a href="CV.pdf" target="_blank" class="cv">Download mit CV <i class="fas fa-download"></i></a>
           </div>
           <div class="col-12 col-md-9 col-lg-6 col-xl-6 mx-auto" data-sal="slide-left" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">

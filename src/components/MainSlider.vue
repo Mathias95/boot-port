@@ -2,7 +2,7 @@
     <section id="projects">
       <div class="container">
         <div class="row">
-            <div class="col-12 col-md-9 col-lg-6 col-xl-5 projects-text-wrapper" data-sal="slide-right" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
+            <div class="col-12 col-md-9 col-lg-6 col-xl-6 projects-text-wrapper" data-sal="slide-right" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
             <h2 class="headline-dot">Seneste projekter</h2>
             <p class="main-text">Nedenfor kan du se et udpluk over de varieret projekter, som jeg har udarbejdet gennem tiden. Projekterne indeholder både Web Design, samt udvikling</p>
             </div>
