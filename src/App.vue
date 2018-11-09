@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-        <div class="lines">
+    <div class="lines">
       <div class="container">
         <div class="row">
           <div class="col-line">

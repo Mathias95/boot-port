@@ -6,7 +6,7 @@
         <div class="col-12 col-md-10 col-lg-6 col-xl-6"  data-sal="slide-right" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
           <div class="contact-text-wrapper">
             <h2 class="headline-dot"><span>Kontakt</span> mig for flere informationer</h2>
-            <p class="main-text">Kunne du tænkte dig, at vide mere om mine kompetencer eller projekter. Så er du velkomment til at kontakt mig.</p>
+            <p class="main-text">Kunne du tænkte dig, at vide mere om mine kompetencer eller projekter. Så er du velkomment til at kontakte mig.</p>
             <div class="social-contact-links">
             <ul>
               <li><a href="mailto:mathiasrjacobsen@gmail.com"><i class="fas fa-envelope"></i></a></li>
