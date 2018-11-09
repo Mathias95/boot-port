@@ -20,8 +20,7 @@
         <div class="col-12 col-lg-6 col-xl-6 mail">
           <div class="mail-wrapper">
             <div class="mail-inner">
-              <h3>mathiasrjacobsen@gmail.com</h3>
-              <a href="mailto:mathiasrjacobsen@gmail.com" class="button button-main-btn">Smid en mail<i class="fab fa-telegram-plane"></i></a>
+              <a href="mailto:mathiasrjacobsen@gmail.com">mathiasrjacobsen@gmail.com</a>
             </div>
         </div>
         </div>

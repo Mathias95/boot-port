@@ -38,12 +38,12 @@
           </div>
           <div class="skills-text-wrapper" data-sal="slide-up" data-sal-delay="300" data-sal-duration="800" data-sal-easing="ease-out-bounce">
             <div class="headline-bg-wrapper">
-              <h2 class="main-headline">Solve big <span>problems</span> and</h2>
+              <h2 class="main-headline">Fokus på <span>udvikling</span></h2>
             </div>
             <div class="headline-bg-wrapper">
-              <h2 class="headline-dot">in just five days</h2>
+              <h2 class="headline-dot">og detaljeret design</h2>
             </div>
-            <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            <p class="main-text">I forbindelse med min uddannelse, som multimediedesigner har jeg arbejdet en del med design, samt udvikling af UX og UI til den rette end user.</p>
           </div>
         </div>
       </div>

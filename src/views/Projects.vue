@@ -9,7 +9,7 @@
                     <div class="col-12 col-lg-5 project-col-desc">
                         <span>Web Design</span>
                         <h2 class="headline-dot">Fullrate Design</h2>
-                        <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo </p>
+                        <p class="main-text">Fiktiv design for Fullrate. Opdaeret deres forside design for, at skabe et mere moderne, og livligt udtryk til deres hjemmeside. Udarbejdet er lavet, som en del af min udviklingsprocess som web designer. </p>
                         <a href="https://www.behance.net/gallery/72270205/Fullrate-Test-site" target="_blank" class="link-underline">Se projektet på Behance</a>
                     </div>
                 </div>
