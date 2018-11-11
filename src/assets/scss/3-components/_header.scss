@@ -17,23 +17,23 @@
 
   //Burger-Menu
 .bm-burger-button {
-    width: 1.875rem;
-    height: 1.25rem;
-    left: 0;
-    top: 0;
+    width: 1.875rem !important;
+    height: 1.25rem !important;
+    left: 0 !important;
+    top: 0 !important;
     right: 0 !important;
     cursor: pointer;
-    position: relative;
+    position: relative !important;
   }
   .bm-burger-bars {
-    background-color: #C9C9C9;
+    background-color: #C9C9C9 !important;
   }
   .line-style {
-    height: 2px;
+    height: 2px !important;
     left: 0;
     right: 0;
     &:nth-child(2){
-      background-color: $main-green-color;
+      background-color: $main-green-color !important;
     }
   }
   .cross-style {
