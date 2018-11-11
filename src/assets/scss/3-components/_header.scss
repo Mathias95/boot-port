@@ -38,8 +38,8 @@
   }
   .cross-style {
     cursor: pointer;
-    right: 0;
-    top: 1.5625rem;
+    right: 0 !important;
+    top: 1.5625rem !important; 
   }
   .bm-cross {
     width: 2px !important;
@@ -47,8 +47,8 @@
     background: #C9C9C9;
   }
   .bm-cross-button {
-    height: 1.875rem;
-    width: 1.875rem;
+    height: 1.875rem !important;
+    width: 1.875rem !important;
   }
   .bm-menu {
     height: 100%;
